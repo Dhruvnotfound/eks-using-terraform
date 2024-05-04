@@ -74,3 +74,9 @@ The following input variables are defined in `variables.tf`:
 - `desired_size`: The desired number of worker nodes in the node group.
 - `max_size`: The maximum number of worker nodes in the node group.
 - `min_size`: The minimum number of worker nodes in the node group.
+
+## References
+
+- EKS Service IAM Role: "https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html"
+- EKS Node IAM Role: "https://docs.aws.amazon.com/eks/latest/userguide/create-node-role.html"
+- VPC Module: "https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest"
